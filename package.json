@@ -1,0 +1,43 @@
+{
+  "name": "fast-start-js",
+  "version": "0.0.1",
+  "description": "Quickly start a JavaScript POC",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-watch src/index.js",
+    "build": "babel src -d build --copy-files",
+    "serve": "node .",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agape-mou/fast-start-js.git"
+  },
+  "keywords": [
+    "js",
+    "start",
+    "poc"
+  ],
+  "author": "agape-mou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agape-mou/fast-start-js/issues"
+  },
+  "homepage": "https://github.com/agape-mou/fast-start-js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-eslint": "^10.1.0",
+    "babel-watch": "^7.4.0",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
