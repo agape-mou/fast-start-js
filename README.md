@@ -14,7 +14,7 @@ git clone https://github.com/agape-mou/fast-start-js.git
 
 ```
 cd fast-start-js
-git rm -rf .git
+rm -rf .git
 ```
 
 ### Now, re-initialize the repository:
